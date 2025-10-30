@@ -1,5 +1,8 @@
-# Игнорируем исходники C# в корне
-PracticsGrokaemAlg.csproj
-Program.cs
-bin/
-obj/
+# Игнорируем только корневые C# файлы и папки сборки
+/PracticsGrokaemAlg.csproj
+/Program.cs
+/bin/
+/obj/
+
+# Но разрешаем все остальное
+!*/
