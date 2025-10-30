@@ -1,15 +1,10 @@
-# Файлы сборки .NET
+# Игнорируем исходники C# в корне
+PracticsGrokaemAlg.csproj
+Program.cs
 bin/
 obj/
-Program.cs
-PracticsGrokaemAlg.csproj
 
-# Файлы программ
-Program.cs
-*.exe
-*.dll
-
-# Файлы IDE
-.vs/
-*.user
-*.suo
+# Но разрешаем исходники в папках практики
+!FreePractice/**/*.cs
+!GrokkingAlgorithms/**/*.cs
+!LeetCode/**/*.cs
