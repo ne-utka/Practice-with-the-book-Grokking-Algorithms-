@@ -3,8 +3,3 @@ PracticsGrokaemAlg.csproj
 Program.cs
 bin/
 obj/
-
-# Но разрешаем исходники в папках практики
-!FreePractice/**/*.cs
-!GrokkingAlgorithms/**/*.cs
-!LeetCode/**/*.cs
